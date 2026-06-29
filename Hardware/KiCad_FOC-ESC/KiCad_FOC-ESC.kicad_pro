@@ -63,13 +63,19 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.6
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +240,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -648,7 +663,7 @@
         "uuid": "5aa129d7-7a76-48d9-8008-691cf751c140"
       }
     ],
-    "used_designators": "U1,IC1-6,Y1,Y101,Q1-6,#PWR1-13,#PWR105-106,#PWR109,#PWR115,C1-9,C103",
+    "used_designators": "J1-3,R1-6,IC2-4,Q1-6,LED1,C10-12,#PWR14-22",
     "variants": []
   },
   "sheets": [
@@ -665,8 +680,8 @@
       "FET_Driver"
     ],
     [
-      "6b8ffa7a-3d08-4afd-9aa7-1cebcb652d2d",
-      "current_sens"
+      "eb5eeb7a-42d1-404c-b4dc-a9c559d81741",
+      "HalfBridgeA"
     ],
     [
       "3e4aa878-e28e-4c56-93d1-7a801dda56f4",
@@ -681,8 +696,12 @@
       "CMOS_Oscillator"
     ],
     [
-      "2320b4d1-f782-4ecc-9b46-ca572644977b",
-      "Debbug"
+      "d755ae58-9e58-4fca-bf5c-9be49bc49c40",
+      "HalfBridgeB"
+    ],
+    [
+      "d6e27ad6-1601-412e-bf7b-bb5db89d9af0",
+      "HalfBridgeC"
     ]
   ],
   "text_variables": {},
