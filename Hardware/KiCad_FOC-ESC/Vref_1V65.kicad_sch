@@ -230,7 +230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT96P240X105-3N"
+		(property "Footprint" "SamacSys_Parts:SOT96P240X105-3N"
 			(at 76.2 141.91 0)
 			(hide yes)
 			(show_name no)

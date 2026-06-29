@@ -536,7 +536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-20N"
+		(property "Footprint" "SamacSys_Parts:SOP65P640X120-20N"
 			(at 91.44 168.58 0)
 			(hide yes)
 			(show_name no)
