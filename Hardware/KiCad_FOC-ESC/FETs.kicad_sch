@@ -1,0 +1,1395 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a5c6e3a9-b863-45e3-a991-c0de7a5ff33c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "SamacSys_Parts:NTTFS5D6N08XLTAG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 21.59 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "NTTFS5D6N08XLTAG"
+				(at 21.59 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "NVTFS007N08HLTAG"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTTFS5D6N08XL-D.PDF"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.8"
+				(at 21.59 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 21.59 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "NTTFS5D6N08XLTAG"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "NTTFS5D6N08XLTAG_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "S_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "S_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "D_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "D_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "D_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "D_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "D_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "S_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:NTTFS5D6N08XLTAG")
+		(at 96.52 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06213a13-81a9-4f48-9bbc-a94202377e22")
+		(property "Reference" "Q2"
+			(at 109.22 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NTTFS5D6N08XLTAG"
+			(at 109.22 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NVTFS007N08HLTAG"
+			(at 118.11 183.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTTFS5D6N08XL-D.PDF"
+			(at 118.11 283.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+			(at 96.52 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 118.11 483.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 118.11 583.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 118.11 683.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 118.11 783.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTTFS5D6N08XLTAG"
+			(at 118.11 883.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "ae949c96-e591-4ca2-aa5d-0ba531006dee")
+		)
+		(pin "7"
+			(uuid "aeb72930-b462-4461-aad3-c0bf798ca250")
+		)
+		(pin "3"
+			(uuid "4bf8ca53-5544-4a76-bf95-50e9b41adb9b")
+		)
+		(pin "5"
+			(uuid "940b9661-356f-4600-a4e0-2b0209f91fbe")
+		)
+		(pin "1"
+			(uuid "49b95954-2719-4313-a2a0-ab473a5662a7")
+		)
+		(pin "4"
+			(uuid "29151abd-d14d-4e65-9f63-792a3192cfb6")
+		)
+		(pin "6"
+			(uuid "f975d48b-a662-4f8b-a379-30280090823b")
+		)
+		(pin "9"
+			(uuid "56edf84c-a729-4eaf-8d64-3fe233a897c0")
+		)
+		(pin "10"
+			(uuid "48b2bbfd-4aab-4539-b15a-1a4be48a61b2")
+		)
+		(pin "11"
+			(uuid "3fcb376d-1793-4d35-91e6-56eaed7a2184")
+		)
+		(pin "8"
+			(uuid "f0ea46eb-f8b7-493e-8232-a99ff96d07d7")
+		)
+		(pin "12"
+			(uuid "db8c6b1d-3115-4abe-9b41-1bae276c47d6")
+		)
+		(instances
+			(project "KiCad_FOC-ESC"
+				(path "/5aa129d7-7a76-48d9-8008-691cf751c140/3e4aa878-e28e-4c56-93d1-7a801dda56f4"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:NTTFS5D6N08XLTAG")
+		(at 127 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2635e5e3-ca98-4542-adfa-6e81e48f278c")
+		(property "Reference" "Q4"
+			(at 139.7 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NTTFS5D6N08XLTAG"
+			(at 139.7 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NVTFS007N08HLTAG"
+			(at 148.59 159.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTTFS5D6N08XL-D.PDF"
+			(at 148.59 259.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+			(at 127 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 148.59 459.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 148.59 559.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 148.59 659.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 148.59 759.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTTFS5D6N08XLTAG"
+			(at 148.59 859.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "106a9e7f-16f0-43e0-9378-c7779fd7edac")
+		)
+		(pin "7"
+			(uuid "f642c78a-4c9e-4d3f-9e13-db2d0a508f49")
+		)
+		(pin "3"
+			(uuid "2a5f48db-13b2-412b-94b0-3f2c7cc2f677")
+		)
+		(pin "5"
+			(uuid "f733f0ba-1a0c-49f2-9a20-c556e7607a83")
+		)
+		(pin "1"
+			(uuid "4ead49dc-817a-4efb-b25e-fc1aec9dd2ca")
+		)
+		(pin "4"
+			(uuid "a6a52f55-54fc-469e-93aa-72731d84b92d")
+		)
+		(pin "6"
+			(uuid "8bb6ed1b-937f-4947-bd1a-6cd14f00b357")
+		)
+		(pin "9"
+			(uuid "0f02dd2d-de2f-4126-af72-7ed373b42734")
+		)
+		(pin "10"
+			(uuid "42575360-f28e-4969-baba-1f2566f77f6f")
+		)
+		(pin "11"
+			(uuid "c85bc054-4f6e-4586-949e-c8ba6f6614d3")
+		)
+		(pin "8"
+			(uuid "f84c6679-30c9-4660-9c4d-1a1f1d5cca89")
+		)
+		(pin "12"
+			(uuid "090696de-decd-4a3c-836c-0d0fee178035")
+		)
+		(instances
+			(project "KiCad_FOC-ESC"
+				(path "/5aa129d7-7a76-48d9-8008-691cf751c140/3e4aa878-e28e-4c56-93d1-7a801dda56f4"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:NTTFS5D6N08XLTAG")
+		(at 127 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "971ea234-d4b1-4f2d-b999-b11850ebfe17")
+		(property "Reference" "Q5"
+			(at 139.7 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NTTFS5D6N08XLTAG"
+			(at 139.7 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NVTFS007N08HLTAG"
+			(at 148.59 183.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTTFS5D6N08XL-D.PDF"
+			(at 148.59 283.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+			(at 127 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 148.59 483.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 148.59 583.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 148.59 683.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 148.59 783.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTTFS5D6N08XLTAG"
+			(at 148.59 883.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "e05b2c53-7cf9-48e6-9377-31c4a3daeea1")
+		)
+		(pin "7"
+			(uuid "6ee3c988-16a6-49d2-b11c-10ae4265eeec")
+		)
+		(pin "3"
+			(uuid "05e68310-fa07-4498-b896-16d6766a78e7")
+		)
+		(pin "5"
+			(uuid "ae3ab589-02d2-4a0b-a113-0287bdb9aa18")
+		)
+		(pin "1"
+			(uuid "c5310efd-55c4-47a1-b3bb-aa0080882bb0")
+		)
+		(pin "4"
+			(uuid "3a81d684-3ac2-4c67-ba20-139926f7954d")
+		)
+		(pin "6"
+			(uuid "bcce4445-d4d3-46e1-afab-f74f7887c69b")
+		)
+		(pin "9"
+			(uuid "52321c3e-3bd7-46a6-9393-c2455c1beb05")
+		)
+		(pin "10"
+			(uuid "7d43592d-9927-4c5c-b583-56545b425f84")
+		)
+		(pin "11"
+			(uuid "e595028f-566f-41f7-bfe9-88e5032a0df2")
+		)
+		(pin "8"
+			(uuid "19727cdb-6b57-4c25-b2f8-e6900334354b")
+		)
+		(pin "12"
+			(uuid "d8f4b1a7-e17b-4543-bb25-e46f9817b4df")
+		)
+		(instances
+			(project "KiCad_FOC-ESC"
+				(path "/5aa129d7-7a76-48d9-8008-691cf751c140/3e4aa878-e28e-4c56-93d1-7a801dda56f4"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:NTTFS5D6N08XLTAG")
+		(at 96.52 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0cf5b4e-f14c-4009-a640-fb51ac8f4fab")
+		(property "Reference" "Q1"
+			(at 109.22 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NTTFS5D6N08XLTAG"
+			(at 109.22 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NVTFS007N08HLTAG"
+			(at 118.11 159.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTTFS5D6N08XL-D.PDF"
+			(at 118.11 259.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+			(at 96.52 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 118.11 459.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 118.11 559.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 118.11 659.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 118.11 759.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTTFS5D6N08XLTAG"
+			(at 118.11 859.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "b17fd9d8-d9c2-4793-bcd2-f4925d7bfe77")
+		)
+		(pin "7"
+			(uuid "6b829e1c-1bc9-4f50-8fcf-e34c70059b4c")
+		)
+		(pin "3"
+			(uuid "b2739c98-ce6c-4403-9d63-5b64ae0f376d")
+		)
+		(pin "5"
+			(uuid "3c5fdd3b-5a74-4b0a-8082-8d6024d09741")
+		)
+		(pin "1"
+			(uuid "b6cc5449-e21b-49ee-a459-be2e42cb3c30")
+		)
+		(pin "4"
+			(uuid "e0317f47-c1fa-432b-b253-b1b6ece27745")
+		)
+		(pin "6"
+			(uuid "8cd3d8f8-fe80-4f9e-b4eb-e7df17e06321")
+		)
+		(pin "9"
+			(uuid "0a4ad81a-b60f-492a-b858-ac73b605a140")
+		)
+		(pin "10"
+			(uuid "b25dbfb6-a2d7-4b67-916d-7814f52189c8")
+		)
+		(pin "11"
+			(uuid "beb5af54-a5c2-4a70-847d-cbd079372b4a")
+		)
+		(pin "8"
+			(uuid "b0ca1aa5-855e-40b0-be64-e14f183a48ad")
+		)
+		(pin "12"
+			(uuid "f8c32331-5463-456f-8a36-73f33f725a7a")
+		)
+		(instances
+			(project "KiCad_FOC-ESC"
+				(path "/5aa129d7-7a76-48d9-8008-691cf751c140/3e4aa878-e28e-4c56-93d1-7a801dda56f4"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:NTTFS5D6N08XLTAG")
+		(at 96.52 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc95f45a-247f-453d-b886-277d2ca68f5d")
+		(property "Reference" "Q3"
+			(at 109.22 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NTTFS5D6N08XLTAG"
+			(at 109.22 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NVTFS007N08HLTAG"
+			(at 118.11 209.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTTFS5D6N08XL-D.PDF"
+			(at 118.11 309.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+			(at 96.52 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 118.11 509.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 118.11 609.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 118.11 709.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 118.11 809.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTTFS5D6N08XLTAG"
+			(at 118.11 909.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "40c0e6e2-aa62-41dc-910f-37bcacdea31b")
+		)
+		(pin "7"
+			(uuid "8bfa5aaa-8b9c-4681-b0a2-d147a7961d82")
+		)
+		(pin "3"
+			(uuid "98441d82-55b0-4cc3-a024-18f60196321d")
+		)
+		(pin "5"
+			(uuid "e66ed31b-cdbc-4342-b4cc-7890efe31c83")
+		)
+		(pin "1"
+			(uuid "672f6124-3463-42ea-9f2f-31f4091a09a7")
+		)
+		(pin "4"
+			(uuid "877f58cd-8315-497d-90d7-712a12f9033b")
+		)
+		(pin "6"
+			(uuid "d2bd11d4-cfc3-44b3-b281-d6bb5192b244")
+		)
+		(pin "9"
+			(uuid "6e253bcf-fb9e-4abc-80eb-098d8d83ac70")
+		)
+		(pin "10"
+			(uuid "1f2795e7-7e6b-4a01-8f99-be444a0ec692")
+		)
+		(pin "11"
+			(uuid "3c2b701e-6075-49a6-9170-49b62b758b07")
+		)
+		(pin "8"
+			(uuid "e47513f0-f040-4aed-a87e-317146ef53f6")
+		)
+		(pin "12"
+			(uuid "ce626406-4ec9-446c-aed0-ed54b8104724")
+		)
+		(instances
+			(project "KiCad_FOC-ESC"
+				(path "/5aa129d7-7a76-48d9-8008-691cf751c140/3e4aa878-e28e-4c56-93d1-7a801dda56f4"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:NTTFS5D6N08XLTAG")
+		(at 127 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f60fc8dd-0a6d-4ae8-9fd2-6cde3049fc9b")
+		(property "Reference" "Q6"
+			(at 139.7 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NTTFS5D6N08XLTAG"
+			(at 139.7 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NVTFS007N08HLTAG"
+			(at 148.59 209.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTTFS5D6N08XL-D.PDF"
+			(at 148.59 309.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Low QRR, Soft Recovery Body Diode; Low RDS(on) to Minimize Conduction Losses; Low QG and Capacitance to Minimize Driver Losses; These Devices are PbFree, HalogenFree/BFRFree and are RoHS Compliant"
+			(at 127 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 148.59 509.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 148.59 609.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 148.59 709.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 148.59 809.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTTFS5D6N08XLTAG"
+			(at 148.59 909.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "e0637dd0-84ee-4e84-afe1-3d3db4ac3f88")
+		)
+		(pin "7"
+			(uuid "75af60a1-cdf2-44c0-b664-cabba34f48dc")
+		)
+		(pin "3"
+			(uuid "423a7fc3-73b6-4c1e-8acf-640b46636ad9")
+		)
+		(pin "5"
+			(uuid "e9ae5866-f80f-47cf-9765-703c3006aebd")
+		)
+		(pin "1"
+			(uuid "649f1319-1032-42dd-b41d-5d0a25d1a9b2")
+		)
+		(pin "4"
+			(uuid "41ac206b-797d-4db5-a392-2bb5bfa0e4f2")
+		)
+		(pin "6"
+			(uuid "6df44eef-867a-446a-b84e-4b6d7c04be3e")
+		)
+		(pin "9"
+			(uuid "88df39fa-3125-46c3-b400-92c378ef3d91")
+		)
+		(pin "10"
+			(uuid "c8735fd3-38e2-487a-8ea8-39e8b41c2283")
+		)
+		(pin "11"
+			(uuid "f65a552c-f4cd-4ee1-9175-1a1c58aef6d7")
+		)
+		(pin "8"
+			(uuid "ad5cdd2b-4773-455d-b76b-c89f5749a1e0")
+		)
+		(pin "12"
+			(uuid "4acd315c-7773-4581-aad9-52f96668cad6")
+		)
+		(instances
+			(project "KiCad_FOC-ESC"
+				(path "/5aa129d7-7a76-48d9-8008-691cf751c140/3e4aa878-e28e-4c56-93d1-7a801dda56f4"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
