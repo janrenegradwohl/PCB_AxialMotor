@@ -392,7 +392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NVTFS007N08HLTAG"
+		(property "Footprint" "SamacSys_Parts:NVTFS007N08HLTAG"
 			(at 118.11 183.82 0)
 			(hide yes)
 			(show_name no)
@@ -564,7 +564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NVTFS007N08HLTAG"
+		(property "Footprint" "SamacSys_Parts:NVTFS007N08HLTAG"
 			(at 148.59 159.69 0)
 			(hide yes)
 			(show_name no)
@@ -736,7 +736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NVTFS007N08HLTAG"
+		(property "Footprint" "SamacSys_Parts:NVTFS007N08HLTAG"
 			(at 148.59 183.82 0)
 			(hide yes)
 			(show_name no)
@@ -908,7 +908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NVTFS007N08HLTAG"
+		(property "Footprint" "SamacSys_Parts:NVTFS007N08HLTAG"
 			(at 118.11 159.69 0)
 			(hide yes)
 			(show_name no)
@@ -1080,7 +1080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NVTFS007N08HLTAG"
+		(property "Footprint" "SamacSys_Parts:NVTFS007N08HLTAG"
 			(at 118.11 209.22 0)
 			(hide yes)
 			(show_name no)
@@ -1252,7 +1252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NVTFS007N08HLTAG"
+		(property "Footprint" "SamacSys_Parts:NVTFS007N08HLTAG"
 			(at 148.59 209.22 0)
 			(hide yes)
 			(show_name no)

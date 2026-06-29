@@ -648,7 +648,7 @@
         "uuid": "5aa129d7-7a76-48d9-8008-691cf751c140"
       }
     ],
-    "used_designators": "U1,IC1-6,Q1-6",
+    "used_designators": "U1,IC1-6,Y1,Y101,Q1-6,#PWR1-13,#PWR105-106,#PWR109,#PWR115,C1-9,C103",
     "variants": []
   },
   "sheets": [
@@ -675,6 +675,10 @@
     [
       "3fb604c9-4375-4b1d-95f1-f4834b76ca89",
       "angle_sens"
+    ],
+    [
+      "dd72814a-2d5c-4d6c-a81f-25fb4510d80e",
+      "CMOS_Oscillator"
     ]
   ],
   "text_variables": {},

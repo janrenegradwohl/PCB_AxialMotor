@@ -284,7 +284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-6N"
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-6N"
 			(at 113.03 169.85 0)
 			(hide yes)
 			(show_name no)
@@ -438,7 +438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-6N"
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-6N"
 			(at 113.03 186.36 0)
 			(hide yes)
 			(show_name no)
@@ -592,7 +592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-6N"
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-6N"
 			(at 113.03 152.07 0)
 			(hide yes)
 			(show_name no)
