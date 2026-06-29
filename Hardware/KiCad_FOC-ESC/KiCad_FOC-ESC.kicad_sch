@@ -4818,52 +4818,6 @@
 		)
 	)
 	(sheet
-		(at 209.55 90.17)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "2320b4d1-f782-4ecc-9b46-ca572644977b")
-		(property "Sheetname" "Debbug"
-			(at 209.55 89.4584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Debbug.kicad_sch"
-			(at 209.55 94.5646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "KiCad_FOC-ESC"
-				(path "/5aa129d7-7a76-48d9-8008-691cf751c140"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 209.55 39.37)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
