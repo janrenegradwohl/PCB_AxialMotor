@@ -679,6 +679,10 @@
     [
       "dd72814a-2d5c-4d6c-a81f-25fb4510d80e",
       "CMOS_Oscillator"
+    ],
+    [
+      "2320b4d1-f782-4ecc-9b46-ca572644977b",
+      "Debbug"
     ]
   ],
   "text_variables": {},
