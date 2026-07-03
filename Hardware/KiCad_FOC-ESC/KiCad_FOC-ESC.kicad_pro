@@ -213,6 +213,7 @@
         0.0,
         0.09,
         0.1,
+        0.14,
         0.2,
         0.25,
         0.3,
@@ -539,7 +540,12 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "+1V5": "rgb(217, 8, 255)",
+      "+3V": "rgb(255, 97, 182)",
+      "+3V3": "rgb(255, 118, 0)",
+      "+5V": "rgb(255, 0, 17)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -671,7 +677,7 @@
         "uuid": "5aa129d7-7a76-48d9-8008-691cf751c140"
       }
     ],
-    "used_designators": "IC1,IC5,LED2-4,C7,C13-23,D1-4,#PWR12,#PWR23-51,U802",
+    "used_designators": "#PWR23,#PWR34-35,C110,C116,C122",
     "variants": []
   },
   "sheets": [
@@ -682,6 +688,10 @@
     [
       "044506da-39ce-4369-ac96-5c2641096961",
       "Vref_1V65"
+    ],
+    [
+      "5d95a32e-e6eb-4cb7-a26d-2ee51b0cf387",
+      "DRV8320S_1"
     ],
     [
       "eb5eeb7a-42d1-404c-b4dc-a9c559d81741",
