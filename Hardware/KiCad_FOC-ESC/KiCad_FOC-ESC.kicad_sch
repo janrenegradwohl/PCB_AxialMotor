@@ -2886,16 +2886,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 30.48) (xy 204.47 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "000c6654-b6bf-4c19-a4cd-1f54818f49f4")
-	)
-	(wire
-		(pts
 			(xy 87.63 45.72) (xy 87.63 59.69)
 		)
 		(stroke
@@ -3136,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 161.29) (xy 137.16 160.02)
+			(xy 135.89 168.91) (xy 135.89 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3326,7 +3316,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 151.13) (xy 137.16 152.4)
+			(xy 135.89 158.75) (xy 135.89 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3563,6 +3553,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "DebugLED_IN"
+		(shape input)
+		(at 137.16 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "494567f1-f926-46d0-bb57-3c34b36278c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.0192 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3925,7 +3939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "CustomFootprintsJan:XL-1515RGBC-2812B"
 			(at 176.53 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -4326,7 +4340,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 156.21 0)
+		(at 135.89 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4336,7 +4350,7 @@
 		(dnp no)
 		(uuid "32e46cbb-c475-4870-8bd5-86aaf2849a67")
 		(property "Reference" "C7"
-			(at 142.494 154.686 0)
+			(at 141.224 162.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4347,7 +4361,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 145.796 156.972 0)
+			(at 144.526 164.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4358,7 +4372,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 138.1252 160.02 0)
+			(at 136.8552 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4369,7 +4383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 156.21 0)
+			(at 135.89 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4380,7 +4394,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 137.16 156.21 0)
+			(at 135.89 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4751,7 +4765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "CustomFootprintsJan:XL-1515RGBC-2812B"
 			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -5047,7 +5061,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 161.29 0)
+		(at 135.89 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5058,7 +5072,7 @@
 		(fields_autoplaced yes)
 		(uuid "68abec75-37b1-41ba-998a-7df6233e8fe5")
 		(property "Reference" "#PWR049"
-			(at 137.16 167.64 0)
+			(at 135.89 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5069,7 +5083,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 166.37 0)
+			(at 135.89 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5079,7 +5093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 161.29 0)
+			(at 135.89 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5090,7 +5104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 161.29 0)
+			(at 135.89 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5101,7 +5115,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 161.29 0)
+			(at 135.89 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5154,7 +5168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "CustomFootprintsJan:XL-1515RGBC-2812B"
 			(at 204.47 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -5319,7 +5333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "CustomFootprintsJan:XL-1515RGBC-2812B"
 			(at 152.4 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -5377,7 +5391,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 137.16 151.13 0)
+		(at 135.89 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5388,7 +5402,7 @@
 		(fields_autoplaced yes)
 		(uuid "83c6080f-6998-48b1-a41e-dba365ec240b")
 		(property "Reference" "#PWR048"
-			(at 137.16 154.94 0)
+			(at 135.89 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5399,7 +5413,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 137.16 146.05 0)
+			(at 135.89 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5409,7 +5423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 151.13 0)
+			(at 135.89 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5420,7 +5434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 151.13 0)
+			(at 135.89 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5431,7 +5445,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 137.16 151.13 0)
+			(at 135.89 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7110,6 +7124,52 @@
 			(project "KiCad_FOC-ESC"
 				(path "/5aa129d7-7a76-48d9-8008-691cf751c140"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 24.13)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9a78d875-d32d-47b8-87a4-239ea4ee4ca4")
+		(property "Sheetname" "MountingHoles"
+			(at 207.01 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MountingHoles.kicad_sch"
+			(at 207.01 28.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KiCad_FOC-ESC"
+				(path "/5aa129d7-7a76-48d9-8008-691cf751c140"
+					(page "10")
 				)
 			)
 		)
