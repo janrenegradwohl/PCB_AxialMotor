@@ -677,7 +677,7 @@
         "uuid": "5aa129d7-7a76-48d9-8008-691cf751c140"
       }
     ],
-    "used_designators": "#PWR23,#PWR34-35,C110,C116-119,C122",
+    "used_designators": "#PWR23,#PWR34-35,C110,C116-119,C122,H1-6",
     "variants": []
   },
   "sheets": [
@@ -716,6 +716,10 @@
     [
       "d6e27ad6-1601-412e-bf7b-bb5db89d9af0",
       "HalfBridgeC"
+    ],
+    [
+      "9a78d875-d32d-47b8-87a4-239ea4ee4ca4",
+      "MountingHoles"
     ]
   ],
   "text_variables": {},
