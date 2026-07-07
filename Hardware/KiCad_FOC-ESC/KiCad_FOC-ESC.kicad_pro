@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.1,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -677,7 +677,7 @@
         "uuid": "5aa129d7-7a76-48d9-8008-691cf751c140"
       }
     ],
-    "used_designators": "J1-2,#PWR52,#PWR56,NT4-6",
+    "used_designators": "IC1,R1-3,R7,J1-2,#PWR52-54,#PWR56-62,C18,C20-21",
     "variants": []
   },
   "sheets": [
@@ -720,6 +720,10 @@
     [
       "9a78d875-d32d-47b8-87a4-239ea4ee4ca4",
       "MountingHoles"
+    ],
+    [
+      "ce345612-3173-41f8-9657-2e73f0be985f",
+      "CAN"
     ]
   ],
   "text_variables": {},
