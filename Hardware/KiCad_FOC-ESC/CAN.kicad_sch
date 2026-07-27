@@ -1399,6 +1399,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 77.47) (xy 198.12 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8843c370-64ae-4bc0-aa9c-b7f66c014c06")
+	)
+	(wire
+		(pts
 			(xy 144.78 77.47) (xy 151.13 77.47)
 		)
 		(stroke
@@ -1476,6 +1486,16 @@
 			(type default)
 		)
 		(uuid "dcb608a4-7cec-4c82-83dc-9e31426fa4ca")
+	)
+	(wire
+		(pts
+			(xy 198.12 82.55) (xy 201.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27a24fb-d57f-4651-82bf-38838a89995b")
 	)
 	(wire
 		(pts
@@ -2181,6 +2201,84 @@
 			(project "KiCad_FOC-ESC"
 				(path "/5aa129d7-7a76-48d9-8008-691cf751c140/ce345612-3173-41f8-9657-2e73f0be985f"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 198.12 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "704f014f-a7b3-4dd5-84d5-ee7a0290a02f")
+		(property "Reference" "#PWR063"
+			(at 198.12 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 198.12 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 198.12 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc32166a-3feb-4632-a4a0-980c454e2176")
+		)
+		(instances
+			(project "KiCad_FOC-ESC"
+				(path "/5aa129d7-7a76-48d9-8008-691cf751c140/ce345612-3173-41f8-9657-2e73f0be985f"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
