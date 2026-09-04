@@ -677,7 +677,7 @@
         "uuid": "5aa129d7-7a76-48d9-8008-691cf751c140"
       }
     ],
-    "used_designators": "C22,#PWR63",
+    "used_designators": "#PWR210-216,R7-8,R201-202,J201",
     "variants": []
   },
   "sheets": [
@@ -724,6 +724,10 @@
     [
       "ce345612-3173-41f8-9657-2e73f0be985f",
       "CAN"
+    ],
+    [
+      "73981a70-e54f-4bf3-8f45-d167f9e5be07",
+      "USB"
     ]
   ],
   "text_variables": {},
