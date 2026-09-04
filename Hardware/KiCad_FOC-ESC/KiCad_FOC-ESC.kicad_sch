@@ -9496,7 +9496,11 @@
 		)
 	)
 	(sheet
+<<<<<<< HEAD
 		(at 242.57 55.88)
+=======
+		(at 205.74 55.88)
+>>>>>>> 48307c092850274f7f20b34839be966ae5502010
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9512,7 +9516,11 @@
 		)
 		(uuid "73981a70-e54f-4bf3-8f45-d167f9e5be07")
 		(property "Sheetname" "USB"
+<<<<<<< HEAD
 			(at 242.57 55.1684 0)
+=======
+			(at 205.74 55.1684 0)
+>>>>>>> 48307c092850274f7f20b34839be966ae5502010
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9523,7 +9531,11 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
+<<<<<<< HEAD
 			(at 242.57 60.2746 0)
+=======
+			(at 205.74 60.2746 0)
+>>>>>>> 48307c092850274f7f20b34839be966ae5502010
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9534,7 +9546,11 @@
 			)
 		)
 		(property "Field2" ""
+<<<<<<< HEAD
 			(at 242.57 55.88 0)
+=======
+			(at 205.74 55.88 0)
+>>>>>>> 48307c092850274f7f20b34839be966ae5502010
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9553,7 +9569,11 @@
 		)
 	)
 	(sheet
+<<<<<<< HEAD
 		(at 243.84 24.13)
+=======
+		(at 207.01 24.13)
+>>>>>>> 48307c092850274f7f20b34839be966ae5502010
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
